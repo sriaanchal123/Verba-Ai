@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Subtle Rounded Soft Background -->
+    <path
+        android:pathData="M16,8 h64 a8,8 0 0 1 8,8 v64 a8,8 0 0 1 -8,8 h-64 a8,8 0 0 1 -8,-8 v-64 a8,8 0 0 1 8,-8 z"
+        android:fillColor="#F1F5F9" />
+
+    <!-- Open Folio Left Leaf -->
+    <path
+        android:pathData="M24,28 C34,24 45,26 47,30 L47,70 C45,66 34,64 24,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="28"
+                android:endX="47"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2563EB" />
+                <item android:offset="1.0" android:color="#1D4ED8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Open Folio Right Leaf -->
+    <path
+        android:pathData="M49,30 C51,26 62,24 72,28 L72,68 C62,64 51,66 49,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="49"
+                android:startY="30"
+                android:endX="72"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#3B82F6" />
+                <item android:offset="1.0" android:color="#1E293B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central Spine Clarity Beam -->
+    <path
+        android:pathData="M47,26 L49,26 L49,72 L47,72 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Audio / Thought Waves Emitted (Clarity Lines) -->
+    <path
+        android:pathData="M30,42 L41,42 M30,50 L41,50 M55,42 L66,42 M55,50 L66,50"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Radiant Prism Star of Insight -->
+    <path
+        android:pathData="M48,16 C48,22 50,24 56,24 C50,24 48,26 48,32 C48,26 46,24 40,24 C46,24 48,22 48,16 Z"
+        android:fillColor="#059669" />
+
+    <path
+        android:pathData="M66,18 C66,20 67,21 69,21 C67,21 66,22 66,24 C66,22 65,21 63,21 C65,21 66,20 66,18 Z"
+        android:fillColor="#D97706" />
+</vector>

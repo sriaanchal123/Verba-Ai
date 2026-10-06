@@ -1,0 +1,6 @@
+{
+  "name": "VerbaAI",
+  "description": "AI-powered multimodal knowledge extraction platform for documents, audio, videos, meetings, and web URLs with RAG Q&A",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Document base sheet (Left fold) -->
+    <path
+        android:pathData="M32,32 L51,26 L51,76 L32,82 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="26"
+                android:endX="51"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0284C7" />
+                <item android:offset="1.0" android:color="#38BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Document base sheet (Right fold) -->
+    <path
+        android:pathData="M57,26 L76,32 L76,82 L57,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="57"
+                android:startY="26"
+                android:endX="76"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central spine glow -->
+    <path
+        android:pathData="M52,24 L56,24 L56,77 L52,77 Z"
+        android:fillColor="#E0E7FF" />
+
+    <!-- Soundwave lines across pages -->
+    <path
+        android:pathData="M37,44 L46,44 M37,52 L47,52 M37,60 L44,60 M61,44 L71,44 M61,52 L71,52 M64,60 L71,60"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Central Multimodal AI Spark Star -->
+    <path
+        android:pathData="M54,42 C54,49 57,51 64,51 C57,51 54,53 54,60 C54,53 51,51 44,51 C51,51 54,49 54,42 Z"
+        android:fillColor="#F8FAFC" />
+
+    <path
+        android:pathData="M70,26 C70,29 72,30 75,30 C72,30 70,31 70,34 C70,31 69,30 66,30 C69,30 70,29 70,26 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Audio / Wave pulse dots below -->
+    <path
+        android:pathData="M42,70 L42,72 M48,68 L48,74 M54,66 L54,76 M60,68 L60,74 M66,70 L66,72"
+        android:strokeWidth="2.2"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+</vector>
